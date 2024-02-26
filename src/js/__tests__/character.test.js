@@ -1,4 +1,4 @@
-import Character from '../app';
+import Character from '../Character';
 import Magician from '../magician';
 
 test('test_1', () => {
