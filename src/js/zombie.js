@@ -1,4 +1,4 @@
-import Character from './app';
+import Character from './Character';
 
 export default class Zombie extends Character {
   constructor(name, type) {
@@ -8,8 +8,3 @@ export default class Zombie extends Character {
     this.defence = 10;
   }
 }
-
-const zombie1 = new Zombie('Zombie1', 'Zombie');
-
-// eslint-disable-next-line no-console
-console.log(zombie1);
